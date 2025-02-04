@@ -24,7 +24,7 @@ client.on("guildMemberAdd", async (member) => {
     const embed = new EmbedBuilder()
         .setTitle("👋 ¡Bienvenido!")
         .setDescription(
-            `Hola ${member}, bienvenido a **${member.guild.name}** 🎉!\n\nEsperamos que tengas un gran día soleado.`,
+            `Hola ${member}, bienvenido a **${member.guild.name}** 🎉!\n\nEsperamos que tengas un día soleado.`,
         )
         .setColor("Blue")
         .setImage("https://i.imgur.com/dL75uh2.jpeg") // Cambia esta URL por una imagen de bienvenida
